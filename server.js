@@ -7,8 +7,6 @@ const routes = require('./routes/webhooks.route');
 
 const app = express();
 
-dotenv.config();
-
 app.use(cors());
 
 app.use(express.json());
