@@ -9,8 +9,8 @@ router.get('/get', (req, res) => {
   res.status(200);
   res.json({
     message: 'success',
-    dryDustbinPercentage: '121',
-    wetDustbinPercentage: '121',
+    dryDustbinPercentage,
+    wetDustbinPercentage,
   });
 });
 
