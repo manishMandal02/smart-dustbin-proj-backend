@@ -2,8 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-let dryDustbinPercentage = 0;
-let wetDustbinPercentage = 0;
+let dryDustbinPercentage = 1;
+let wetDustbinPercentage = 1;
 
 router.get('/get', (req, res) => {
   res.status(200);
