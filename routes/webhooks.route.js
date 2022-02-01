@@ -7,7 +7,7 @@ let wetDustbinPercentage = 0;
 
 router.get('/get', (req, res) => {
   res.status(200);
-  res.json({
+  res.send({
     message: 'success',
     dryDustbinPercentage,
     wetDustbinPercentage,
