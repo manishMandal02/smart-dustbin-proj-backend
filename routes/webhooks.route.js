@@ -19,6 +19,7 @@ router.get('/set', (req, res) => {
   dryDustbinPercentage = req.query.dry;
   wetDustbinPercentage = req.query.wet;
   try {
+    console.log(dryDustbinPercentage, wetDustbinPercentage);
     res.status(200);
     res.json({
       message: 'success',
