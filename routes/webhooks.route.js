@@ -16,8 +16,8 @@ router.get('/get', (req, res) => {
 
 router.get('/set', (req, res) => {
   console.log('webhook hit!!');
-  dryDustbinPercentage = req.query.dry;
-  wetDustbinPercentage = req.query.wet;
+  dryDustbinPercentage = req.query.dryDustbinPercentage;
+  wetDustbinPercentage = req.query.wetDustbinPercentage;
   try {
     res.status(200);
     res.json({
